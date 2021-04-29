@@ -1,0 +1,102 @@
+header .carousel {
+	height: 100vh;
+}
+header .carousel-item {
+	background: grey center/cover no-repeat fixed;
+}
+header .indicator-item {
+	width: 15px !important;
+	height: 15px !important;
+}
+header .carousel-fixed-item {
+	bottom: 50vh !important;
+	transform: translate(0,50%);
+}
+header .navbar-fixed {
+	position: fixed !important;
+}
+header .input-field { margin: 0 30px; }
+#search { padding: 7px 0 0 30px; }
+.sidenav .my-icons a,
+.sidenav .my-icons li  {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.sidenav .my-icons i {
+	margin:  0 0 0 15px;
+}
+.my-upper {
+	text-transform: uppercase;
+}
+.my-trn-btn {
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 0 75px;
+}
+.my-icons i {
+	font-size: 1em;
+}
+#right {
+	margin-top: 20vh;
+}
+#gallery {
+	background: #f5f5f5;
+}
+#gallery h4, #octagon h4, #service h4 {
+	padding: 80px 0 45px 0;
+	margin: auto;
+}
+#gallery a {
+	margin: auto;
+}
+#gallery ul li {
+	display: inline-block;
+	padding: 50px 18px;
+}
+#octagon {
+	background: #2d3f51;
+}
+#octagon p, #service p, #news p {
+	padding-bottom: 50px;
+	line-height: 2em;
+}
+#service h4 {
+	color: #2d3f51;
+}
+#client {
+	background: url('img/client.jpg') bottom/cover no-repeat;
+}
+#client h4 {
+	padding: 60px 0;
+}
+#circles {
+	padding: 50px 0 50px 0;
+}
+#news {
+	background: #f5f5f5;
+}
+#news h4 {
+	margin: auto;
+	padding: 50px 0 40px 0;
+}
+#news h6, #news p {
+	font-size: 14px;
+}
+footer {
+	background: #28252a;
+}
+#list1 li {
+	display: inline-block;
+	padding: 50px 18px 40px 18px;
+}
+#list2 li {
+	display: inline-block;
+	padding: 0 18px 40px 18px;
+}
+#list2 li i {
+	color: #bf332d;
+}
+@media only screen and (max-width: 600px) { 
+	h1 { font-size: 2.5rem; }
+}
